@@ -1,4 +1,5 @@
 # node-amqp-rpc
+[![Download Stats](https://img.shields.io/npm/dm/amqp_rpc.svg)](https://github.com/johnny9144/amqp_rpc)
 
 Library to help you use amqp RPC on easy way.
 
