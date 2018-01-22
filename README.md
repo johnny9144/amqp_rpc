@@ -68,6 +68,8 @@ const amqp = require('amqp_rpc');
  	- `String`
  		- queue name  
  	- `Object`
+ 	- `Integer`
+ 		- timeout ( seconds, default: 30s)
  - `onRPC`
 	- `String`
 		- queue name 
