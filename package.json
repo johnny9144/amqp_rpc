@@ -1,0 +1,21 @@
+{
+  "name": "amqp_rpc",
+  "version": "1.0.0",
+  "description": "amqp_rpc library",
+  "main": "index.js",
+  "directories": {
+    "example": "example",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Johnny Huang",
+  "license": "MIT",
+  "dependencies": {
+    "amqplib": "^0.5.2",
+    "bluebird": "^3.5.1",
+    "debug": "^3.1.0",
+    "node-uuid": "^1.4.8"
+  }
+}
