@@ -18,10 +18,10 @@ const amqp = require('amqp_rpc');
 (async () => {
 	await amqp.init({
 		host : 'localhost',
-    	port : 5672,
-    	user : 'guest',
-    	pass : 'guest',
-    	vhost : '/'
+		port : 5672,
+		user : 'guest',
+		pass : 'guest',
+		vhost : '/'
 	});
 	
 	const queueName = 'hello.word';
@@ -38,10 +38,10 @@ const amqp = require('amqp_rpc');
 (async () => {
 	await amqp.init({
 		host : 'localhost',
-    	port : 5672,
-    	user : 'guest',
-    	pass : 'guest',
-    	vhost : '/'
+		port : 5672,
+		user : 'guest',
+		pass : 'guest',
+		vhost : '/'
 	});
 	
 	const queueName = 'hello.word';
