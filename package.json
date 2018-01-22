@@ -10,7 +10,21 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Johnny Huang",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:johnny9144/amqp_rpc.git"
+  },
+  "author": "Johnny Huang<johnny914425@gmail.com>",
+  "homepage": "https://github.com/johnny9144/amqp_rpc",
+  "engines": {
+    "node": "*"
+  },
+  "keywords": [
+    "amqp",
+    "rpc",
+    "promise",
+    "lib"
+  ],
   "license": "MIT",
   "dependencies": {
     "amqplib": "^0.5.2",
