@@ -120,14 +120,14 @@ const amqp_api = require('node_amqp_rpc');
 ## HISTORY
 - v1.0.0
 	- Publish.
-- v1.2.0
+- v2.0.0
 	- Turn library in to ES6 Classes. 
 	- Connection config field 'pass' rename to 'password'.
 	- Set default value for field ( host, port ).
-- v1.2.1
+- v2.1.0
 	- Add quickStart method.
 	- Add connection close method.
-	- accept amqp url to start connection.  
+	- accept amqp url to start connection.
 
 ## LICENSE
 
