@@ -128,6 +128,8 @@ const amqp_api = require('node_amqp_rpc');
 	- Add quickStart method.
 	- Add connection close method.
 	- accept amqp url to start connection.
+- v2.2.0
+	- Support multi connection 
 
 ## LICENSE
 
