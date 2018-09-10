@@ -114,6 +114,11 @@ const amqp_api = require('node_amqp_rpc');
     - `String`
     	- amqp[s]://[user:password@]hostname[:port][/vhost]
     	- ex. amqp://guest:guest@localhost:5672/
+ - `callPublish` ( exchange, routingKey, Data)
+ 	- `exchange` ( String | Required )
+ 	- `routingKey` ( String | Required )
+ 	- `Data` ( Object | Required )
+ 		- data you want to send 
  - `close` ()
  	- Close amqp connection
 	
@@ -130,6 +135,8 @@ const amqp_api = require('node_amqp_rpc');
 	- accept amqp url to start connection.
 - v2.2.0
 	- Support multi connection 
+- v2.3.0
+	- Add callPublish method.
 
 ## LICENSE
 
